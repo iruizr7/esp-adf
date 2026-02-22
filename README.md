@@ -1,3 +1,27 @@
+## Parendum Fork Organization
+
+- Branch: `parendum`
+- Created from upstream branch: `release/v2.x`
+- Start commit: `01488579932e18c327a151c5b61efff38c9af880`
+- Date (UTC): `2026-02-22`
+
+Synchronization strategy:
+1. Keep upstream updates synchronized on `release/v2.x`.
+2. Implement long-lived customizations on `parendum`.
+3. Periodically merge `release/v2.x` into `parendum` and resolve integration changes there.
+
+Submodule provenance note:
+- `esp-idf/parendum` was created from `origin/release/v5.5` at `30aaf64524299d3bde422ca9a2848090d1bc5d0f`.
+
+### Subrepo Baseline Snapshot
+
+| Path | Local state at snapshot | Source upstream branch/tag | Commit |
+| --- | --- | --- | --- |
+| `esp-adf` | `parendum` | `origin/release/v2.x` | `01488579932e18c327a151c5b61efff38c9af880` |
+| `esp-idf` | `parendum` | `origin/release/v5.5` | `30aaf64524299d3bde422ca9a2848090d1bc5d0f` |
+| `components/esp-adf-libs` | detached HEAD | `origin/master` | `3472016c997e8ddbbb75ee67d2127becb0993942` |
+| `components/esp-sr` | detached HEAD | `origin/master` | `8ecc462b44ee430bbdde6fd76ce2f956efdbd9be` |
+
 # Espressif Audio Development Framework
 
 [![Documentation Status](./docs/_static/doc_latest.svg)](https://docs.espressif.com/projects/esp-adf/en/latest/?badge=latest)
